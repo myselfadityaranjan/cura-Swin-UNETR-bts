@@ -15,5 +15,5 @@ Though this specific project (CURA) is based on MONAI's reference Swin-UNETR pip
 Here is an example of the original Swin-UNETR architecture:
 
 <p align="center">
-  <img src="images/swin-UNETR-architecture-overview.png" alt="Swin-UNETR basic pipeline" width="300"/>
+  <img src="images/swin-UNETR-architecture-overview.png" alt="Swin-UNETR basic pipeline" width="1000"/>
 </p>
