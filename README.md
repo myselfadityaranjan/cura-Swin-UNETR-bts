@@ -13,3 +13,7 @@ Swin-UNETR outperforms standard convolutional models by employing the self-atten
 Though this specific project (CURA) is based on MONAI's reference Swin-UNETR pipeline, it is also custom-tuned for Apple Silicon (MPS backend) and low-memory systems. Hence, it uses a slim fallback Swin-UNETR variant, with reduced feature maps and trimmed skip connections, so that it is more developer-friendly on laptops or limited hardware.
 
 Here is an example of the original Swin-UNETR architecture:
+
+<p align="center">
+  <img src="images/swin-UNETR-architecture-overview.png" alt="Swin-UNETR basic pipeline" width="300"/>
+</p>
