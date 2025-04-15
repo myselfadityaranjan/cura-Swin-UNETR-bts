@@ -22,7 +22,7 @@ Here is an example of the original Swin-UNETR architecture:
 
 The BraTS '21 task dataset for this pipeline can be found at: https://www.kaggle.com/datasets/dschettler8845/brats-2021-task1
 
-The files will be downloaded in .nii.gz (NIFTI) files, and organized into 3 subdirectories (BraTS2021_00495, BraTS2021_00621, BraTS2021_Training_Data). In your main directory, make a "data" directory, such that it is organized:
+The files will be downloaded in 1251 training + 219 validation .nii.gz (NIFTI) files, and organized into 3 subdirectories (BraTS2021_00495, BraTS2021_00621, BraTS2021_Training_Data). In your main directory, make a "data" directory, such that it is organized:
 
 ```bash
 cura-Swin-UNETR-bts/
@@ -68,4 +68,34 @@ This pipeline contains the features for:
 - Matplotlib Metric Visualization: Generates plots for training loss, per-channel Dice scores, and validation trends to monitor progression.
 
 - Failsafe Metric Padding & Debugging: tensor padding and detailed console debug outputs to mitigate runtime crashes during aggregation.
+
+## Installation
+
+First, clone the repository:
+```bash
+git clone https://github.com/myselfadityaranjan/cura-Swin-UNETR-bts.git
+cd cura-Swin-UNETR-bts
+```
+
+Dependencies can be installed using:
+``` bash
+pip3 install -r requirements.txt
+```
+
+### Running
+
+To run the program, make sure that the dependencies are installed and that the directory structure is organized as is in this repo. Then, in app.py, run the script, and the pipeline will start training the model. 
+
+Parameters like:
+```bash
+batch_size=1
+sw_batch_size=1
+overlap=0.35
+max_epochs=10
+```
+
+can be adjusted based on personal system capabilities and time/memory constraints. 
+
+# Usage
+
 
