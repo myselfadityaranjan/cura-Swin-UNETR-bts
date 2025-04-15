@@ -30,4 +30,18 @@ cura-Swin-UNETR-bts/
     ├── BraTS2021_Training_Data/
     ├── BraTS2021_00495/
     └── BraTS2021_00621/
+```
+Following, create an "outputs" subdirectory in the main directory. This pipeline will create a .pth file (for the saved model weights) that will be saved in this directory. 
+
+The structure should be:
+
+```bash
+cura-Swin-UNETR-bts/
+├── data/
+│   ├── BraTS2021_Training_Data/
+│   ├── BraTS2021_00495/
+│   └── BraTS2021_00621/
+└── outputs/
+    └── swinunetr_model.pth
+```
 
