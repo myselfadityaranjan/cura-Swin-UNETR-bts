@@ -98,4 +98,21 @@ can be adjusted based on personal system capabilities and time/memory constraint
 
 # Usage
 
+## Training Results (DICE+Loss)
+
+After training this pipeline for 10 epochs on the BraTS 2021 dataset (using the reduced fallback Swin UNETR variant), the following DICE metrics were observed:
+
+<p align="center">
+  <img src="images/graph_metrics/Validation_Dice_by_Class.png" alt="Per-Channel metrics for DICE (ET, WT, TC)" width="800"/>
+</p>
+
+When averaging the 3-channel metrics:
+
+<p align="center">
+  <img src="images/graph_metrics/Validation_Mean Dice_(ET+WT+TC).png" alt="Avg. 3-Channel metrics for DICE (ET, WT, TC)" width="800"/>
+</p>
+
+Hence, this pipeline achieved a maximum average DICE score of 0.56 with subregion DICE scores of 0.56 (ET), 0.50 (TC), and 0.61 (WT).
+
+
 
