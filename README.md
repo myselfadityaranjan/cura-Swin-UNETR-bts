@@ -128,5 +128,49 @@ Due to Apple Silicon's MPS memory constraints, the model was trained on a smalle
 
 ## Inference Visualization with WT Tumour-Segmentation Overlays
 
+Below are sample predictions from the trained model on two validation FLAIR slices, overlaid with the predicted Whole Tumor (WT) segmentation masks (channel=1):
+
+Sample 1:
+
+<p align="center">
+  <img src="images/wt-overlays/Predicted_WT_1_(Channel=1).png" alt="Sample WT Prediction 1" width="650"/>
+</p>
+
+Sample 2:
+
+<p align="center">
+  <img src="images/wt-overlays/Predicted_WT_2_(Channel=1).png" alt="Sample WT Prediction 2" width="650"/>
+</p>
+
+This code block contributes to the visualization of the FLAIR slices with WT segmentation masks. Future steps are to visualize ET and TC masks as well:
+
+```bash
+with torch.no_grad():
+    with torch.autocast(device_type="mps", dtype=torch.float16):
+        for batch_data in test_loader:
+            outputs = inference_sliding_window(batch_data)
+            out_list = decollate_batch(outputs)
+            preds = [discrete_mask(post_sigmoid(x)) for x in out_list]
+            tumourmask_3ch = preds[0].cpu().numpy()  #shape: (3, d, h, w)
+
+            slice_idx = tumourmask_3ch.shape[1] // 2
+            flair_img_nib = nib.load(test_case["image"][0])
+            flair_data = flair_img_nib.get_fdata()
+
+            seg_slice = tumourmask_3ch[:, slice_idx, :, :]
+            pred_wt = seg_slice[1]
+
+            plt.figure("test inference", (12, 6))
+            plt.subplot(1, 2, 1)
+            plt.title("flair slice")
+            plt.imshow(flair_data[:, :, slice_idx], cmap="gray")
+            plt.subplot(1, 2, 2)
+            plt.title("predicted wt (channel=1)")
+            plt.imshow(pred_wt, cmap="jet", alpha=0.5)
+            plt.show()
+```
+
+
+
 
 
