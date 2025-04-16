@@ -128,7 +128,7 @@ Due to Apple Silicon's MPS memory constraints, the model was trained on a smalle
 
 ## Inference Visualization with WT Tumour-Segmentation Overlays
 
-Below are sample predictions from the trained model on two validation FLAIR slices, overlaid with the predicted Whole Tumor (WT) segmentation masks (channel=1):
+Below are sample predictions from the trained model (MPS-accelerated fallback Swin-UNETR variant) on two validation FLAIR slices, overlaid with the predicted Whole Tumor (WT) segmentation masks (channel=1):
 
 Sample 1:
 
@@ -169,6 +169,8 @@ with torch.no_grad():
             plt.imshow(pred_wt, cmap="jet", alpha=0.5)
             plt.show()
 ```
+
+
 
 
 
