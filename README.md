@@ -122,7 +122,7 @@ Hence, this pipeline achieved a maximum average DICE score of 0.56 with subregio
 
 As seen, Loss proportionally decreased as DICE increased with per-epoch progression. From an average loss of approximately 1.7 in Epoch, Loss reached an expected minimum by Epoch 10 of 0.47. 
 
-*Additionally, the mean 95th percentile Hausdorff Distance (HD95) was 7.0 mm, with sensitivity and specificity measures in the high 80s to low 90s in all channels.
+Additionally, the mean 95th percentile Hausdorff Distance (HD95) was 7.0 mm, with sensitivity and specificity measures in the high 80s to low 90s in all channels.
 
 Due to Apple Silicon's MPS memory constraints, the model was trained on a smaller batch size and reduced feature maps. Results are indicative of general trends rather than state-of-the-art performance.
 
