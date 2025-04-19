@@ -224,7 +224,7 @@ python3 app.py
 
 - Useful for MacBooks or MPS systems with limited memory.
 
-- Not intended for final evaluation; real results require full BraTS data.
+- Not intended for final evaluation; real results require full BraTS data (accessable via link provided earlier).
 
 # Roadmap
 
