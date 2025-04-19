@@ -259,6 +259,12 @@ Aditya Ranjan - myselfadityaranjan@gmail.com, @ad1tyaranjan
 
 [5] Mojtahedi, R., Hamghalam, M., Simpson, A.L. (2023). Multi-modal Brain Tumour Segmentation Using Transformer with Optimal Patch Size. In: Bakas, S., et al. Brainlesion: Glioma, Multiple Sclerosis, Stroke and Traumatic Brain Injuries. BrainLes 2022. Lecture Notes in Computer Science, vol 13769. Springer, Cham. https://doi.org/10.1007/978-3-031-33842-7_17
 
+[6] Hamghalam, M., Lei, B., Wang, T. (2020). Brain Tumor Synthetic Segmentation in 3D Multimodal MRI Scans. In: Crimi, A., Bakas, S. (eds) Brainlesion: Glioma, Multiple Sclerosis, Stroke and Traumatic Brain Injuries. BrainLes 2019. Lecture Notes in Computer Science(), vol 11992. Springer, Cham. https://doi.org/10.1007/978-3-030-46640-4_15
+
+[7] B. H. Menze et al., "The Multimodal Brain Tumor Image Segmentation Benchmark (BRATS)," in IEEE Transactions on Medical Imaging, vol. 34, no. 10, pp. 1993-2024, Oct. 2015, doi: 10.1109/TMI.2014.2377694. keywords: {Image segmentation;Educational institutions;Benchmark testing;Biomedical imaging;Lesions;MRI;Brain;Oncology/tumor;Image segmentation;Benchmark},
+
+[8] Ronneberger, O., Fischer, P., Brox, T. (2015). U-Net: Convolutional Networks for Biomedical Image Segmentation. In: Navab, N., Hornegger, J., Wells, W., Frangi, A. (eds) Medical Image Computing and Computer-Assisted Intervention – MICCAI 2015. MICCAI 2015. Lecture Notes in Computer Science(), vol 9351. Springer, Cham. https://doi.org/10.1007/978-3-319-24574-4_28
+
 
 
 
