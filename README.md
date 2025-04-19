@@ -243,9 +243,13 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 # Contact
 
-Aditya Ranjan - myselfadityaranjan@gmail.com, @ad1tyaranjan
+Created by [Aditya Ranjan](https://github.com/myselfadityaranjan)
 
-- feel free to reach out via GitHub for questions or collaborations (Toronto-based)
+Toronto, Canada  
+
+myselfadityaranjan@gmail.com
+
+feel free to reach out via GitHub for questions or collaborations!
 
 # Acknowledgements
 
