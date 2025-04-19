@@ -255,6 +255,10 @@ Aditya Ranjan - myselfadityaranjan@gmail.com, @ad1tyaranjan
 
 [3] BraTS '21 Challenge Dataset (https://www.kaggle.com/datasets/dschettler8845/brats-2021-task1) (originally from UPenn's Perelman School of Medicine): Provided the multimodal brain tumor imaging data.
 
+[4] Apple (MPS Backend Documentation) (https://developer.apple.com/metal/pytorch/): Enabling hardware-accelerated training on M-chip devices.
+
+[5] Mojtahedi, R., Hamghalam, M., Simpson, A.L. (2023). Multi-modal Brain Tumour Segmentation Using Transformer with Optimal Patch Size. In: Bakas, S., et al. Brainlesion: Glioma, Multiple Sclerosis, Stroke and Traumatic Brain Injuries. BrainLes 2022. Lecture Notes in Computer Science, vol 13769. Springer, Cham. https://doi.org/10.1007/978-3-031-33842-7_17
+
 
 
 
