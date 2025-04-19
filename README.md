@@ -172,6 +172,59 @@ with torch.no_grad():
 
 # Testing/Demo Run
 
+A small "dummy dataset" has been provided in the `modalities_sample/` directory in this repo. It contains 5 patient cases, each with the following BraTS '21 modalities:
+
+- FLAIR
+- T1
+- T1ce
+- T2
+- Segmentation Mask (seg)
+
+Each patient folder (e.g. `BraTS2021_0XXXX`) contains 5 corresponded .nii.gz (NIFTI) files. 
+
+The structure looks like:
+
+```bash
+modalities_sample/
+├── BraTS2021_00630/
+│   ├── BraTS2021_00630_flair.nii.gz
+│   ├── BraTS2021_00630_t1.nii.gz
+│   ├── BraTS2021_00630_t1ce.nii.gz
+│   ├── BraTS2021_00630_t2.nii.gz
+│   └── BraTS2021_00630_seg.nii.gz
+├── BraTS2021_00739/
+│   └── (similar files)
+├── BraTS2021_01426/
+│   └── (similar files)
+├── BraTS2021_01531/
+│   └── (similar files)
+└── BraTS2021_01611/
+    └── (similar files)
+```
+## Running a Demo
+
+Simiarly to regularly running the program (i.e. as shown earlier), to run a demo with this smaller dataset, simply adjust the data loading directory from `data/BraTS2021_Training_Data/` to:
+
+```bash
+data_dir = "./modalities_sample"
+```
+
+Then simply run:
+
+```bash
+pip3 app.py
+```
+(the entire process is the same as earlier otherwise)
+
+### Purpose of Dummy Data
+
+- Allows quick installation verification without downloading full BraTS 2021 (~20GB).
+
+- Tests model architecture, training loop, and inference flow.
+
+- Useful for MacBooks or MPS systems with limited memory.
+
+- Not intended for final evaluation; real results require full BraTS data.
 
 
 
