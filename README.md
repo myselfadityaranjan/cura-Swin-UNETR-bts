@@ -228,6 +228,16 @@ python3 app.py
 
 # Roadmap
 
+- [ ] Add ONNX export support for model deployment in external applications.
+- [ ] Enable full BraTS 2021 dataset compatibility for training and evaluation without manual restructuring.
+- [ ] Support full-scale Swin-UNETR (without fallback slimming) for larger memory GPUs and servers.
+- [ ] Expand inference outputs to include ET (Enhancing Tumor) and TC (Tumor Core) masks in visualizations.
+- [ ] Implement lightweight model checkpoint saving and automatic resumption.
+- [ ] Add mixed-precision (AMP) full support for faster training on all devices.
+- [ ] Improve dummy dataset for better end-to-end testing and tutorial purposes.
+- [ ] Develop a minimal Streamlit or Gradio web demo for public model testing.
+- [ ] Write lightweight unit tests for dataset loading, transforms, and inference modules.
+
 
 
 
