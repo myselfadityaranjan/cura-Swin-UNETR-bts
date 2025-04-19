@@ -203,7 +203,7 @@ modalities_sample/
 ```
 ## Running a Demo
 
-Simiarly to regularly running the program (i.e. as shown earlier), to run a demo with this smaller dataset, simply adjust the data loading directory from `data/BraTS2021_Training_Data/` to:
+Similarly to regularly running the program (i.e. as shown earlier), to run a demo with this smaller dataset, simply adjust the data loading directory from `data/BraTS2021_Training_Data/` to:
 
 ```bash
 data_dir = "./modalities_sample"
@@ -212,7 +212,7 @@ data_dir = "./modalities_sample"
 Then simply run:
 
 ```bash
-pip3 app.py
+python3 app.py
 ```
 (the entire process is the same as earlier otherwise)
 
