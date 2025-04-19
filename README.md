@@ -245,8 +245,15 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 Aditya Ranjan - myselfadityaranjan@gmail.com, @ad1tyaranjan
 
-— feel free to reach out via GitHub for questions or collaborations (Toronto-based)
+- feel free to reach out via GitHub for questions or collaborations (Toronto-based)
 
+# Acknowledgements
+
+[1] Sanaat, Amirhossein & Boccalini, Cecilia & Mathoux, Gregory & Perani, Daniela & Frisoni, Giovanni & Haller, Sven & Montandon, Marie-Louise & Rodriguez, Cristelle & Giannakopoulos, Panteleimon & Garibotto, Valentina & Zaidi, Habib. (2024). A deep learning model for generating [F]FDG PET Images from early-phase [F]Florbetapir and [F]Flutemetamol PET images. European Journal of Nuclear Medicine and Molecular Imaging. 51. 3518-3531. 10.1007/s00259-024-06755-1. 
+
+[2] MONAI (https://monai.io/): Medical Open Network for AI — Core framework used for transformations, model building, and evaluation.
+
+[3] BraTS '21 Challenge Dataset (https://www.kaggle.com/datasets/dschettler8845/brats-2021-task1) (originally from UPenn's Perelman School of Medicine): Provided the multimodal brain tumor imaging data.
 
 
 
