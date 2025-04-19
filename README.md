@@ -241,6 +241,12 @@ python3 app.py
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
+# Contact
+
+Aditya Ranjan - myselfadityaranjan@gmail.com, @ad1tyaranjan
+
+— feel free to reach out via GitHub for questions or collaborations (Toronto-based)
+
 
 
 
