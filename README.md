@@ -180,7 +180,7 @@ A small "dummy dataset" has been provided in the `modalities_sample/` directory 
 - T2
 - Segmentation Mask (seg)
 
-Each patient folder (e.g. `BraTS2021_0XXXX`) contains 5 corresponded .nii.gz (NIFTI) files. 
+Each patient folder (e.g. `BraTS2021_0XXXX`) contains 5 corresponding .nii.gz (NIFTI) files. 
 
 The structure looks like:
 
