@@ -237,6 +237,12 @@ python3 app.py
 - [ ] Develop a minimal Streamlit or Gradio web demo for public model testing.
 - [ ] Write lightweight unit tests for dataset loading, transforms, and inference modules.
 
+# License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+
+
 
 
 
