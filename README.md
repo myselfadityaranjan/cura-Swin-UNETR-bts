@@ -4,6 +4,12 @@
   <img src="images/assets/cura.png" alt="CURA Logo" width="300"/>
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.11-blue.svg" alt="python badge"/>
+  <img src="https://img.shields.io/badge/PyTorch-2.1-lightgrey.svg" alt="pytorch badge"/>
+  <img src="https://img.shields.io/badge/MONAI-1.3.0-brightgreen.svg" alt="monai badge"/>
+</p>
+
 # About the Project
 
 CURA is a brain tumor (glioblastoma) segmentation pipeline based on Swin-UNETR. This architecture combines Swin Transformers as encoders with UNet-like decoders. Swin-UNETR hybrid models have achieved top-tier performance in the BraTS (Brain Tumor Segmentation) challenges, including BraTS 2021, thanks to their ability to model both local detail and global context in 3D medical images.
