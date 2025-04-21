@@ -104,7 +104,7 @@ can be adjusted based on personal system capabilities and time/memory constraint
 
 # Usage
 
-## Training Results (DICE+Loss)
+## Training Results (DICE + BCELoss)
 
 After training this pipeline for 10 epochs on the BraTS 2021 dataset (using the reduced fallback Swin-UNETR variant), the following DICE metrics were observed:
 
